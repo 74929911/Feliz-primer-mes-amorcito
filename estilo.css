@@ -1,0 +1,168 @@
+
+.fondo1{
+width:100%;
+height:500px;
+display:flex;
+align-items: center;
+background-image:url(fondo.jpg);
+background-size:cover;
+justify-content: center;
+}
+
+.parte1{
+text-align: center;
+font-size:16px;
+width:30em;
+padding:1em;
+box-sizing: border-box;
+}
+
+.parte1__div-h1{
+color:rgb(255, 0, 0);
+font-family:'Pattaya', sans-serif;
+font-size:3.3em;
+}
+
+.parte1__div-p{
+font-family: 'Indie Flower', cursive;
+font-size:1.4em
+
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+/* header{
+font-size:16px;
+}
+
+nav{
+background:rgb(190, 82, 218);
+list-style-type: none;
+}
+
+ul li{
+display:inline-block;
+}
+    
+ul li a{
+color:rgb(255, 255, 255);
+text-decoration: none;
+padding: 0.9em 0.9em;
+display:inline-block;
+font-size:1em;
+font-family: 'verdana';
+} */
+
+.contenedor1{
+width:100%;
+height:600px;
+font-size:16px;
+display: flex;
+align-items: center;
+justify-content:space-evenly;
+background-color:black
+}
+
+.imagen1{
+width:30%;
+height:500px;
+border:2px solid white;
+box-shadow: 0 0 0.7em black;
+}
+
+.primero{
+width:50%;
+font-size:1.4em;
+}
+
+.contenedor1 .primero h2{
+font-family: 'Shadows Into Light', cursive;
+margin-bottom:0.3em;
+color:white
+
+}
+
+.contenedor1 .primero p{
+font-family: 'Open Sans Condensed', sans-serif;
+color:white
+}
+
+.segundo{
+width:100%;
+height:600px;
+font-size:16px;
+display:flex;
+flex-direction: row-reverse;
+justify-content: space-evenly;
+padding-top:3em;
+align-items: center;
+background-color:black
+}
+.contenedor2{
+width:50%;
+font-size:1.3em}
+
+.imagen2{
+width:30%;
+height:500px;
+border:2px solid white;
+}
+
+.segundo .contenedor2 h2{
+font-family: 'Shadows Into Light', cursive;
+margin-bottom:0.3em;
+color:white
+}
+
+.segundo .contenedor2 p{
+font-family: 'Open Sans Condensed', sans-serif;
+color:white
+}
+
+
+@media screen and ( max-width:1000px){
+.contenedor1{
+display:inline-block;
+width:100%;
+height:1000px
+}
+.primero{
+width:100%;
+}
+
+
+.h1{
+text-align: center;
+}
+.imagen1{
+width:100%;
+height:1000px
+}
+
+.segundo{
+display:inline-block;
+width:100%;
+height:1000px
+}
+
+.contenedor2{
+width:100%}
+
+h2{
+text-align: center;
+}
+.imagen2{
+width:100%;
+height:1000px
+}
+.fondo1{
+background-image:none;
+padding-top:3em;
+display:flex;
+align-items: none;
+justify-content: none;
+}
